@@ -8,11 +8,9 @@ const SignUp = () => {
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
   const [password, setPassword] = useState("");
-  const [password2, setPassword2] = useState("");
   const [visible, setVisible] = useState("");
   const [avatar, setAvatar] = useState("");
 
-  const handleSubmit = (e) => {};
 
   const handleInputChange = (e) => {
     const file = e.target.files[0];
@@ -134,7 +132,7 @@ const SignUp = () => {
                   to="/login"
                   className="label-text-alt link link-hover text-bg-black"
                 >
-                  Go back to login page
+                  Already have an account? <span className="ml-1 text-bg-btn text-bold">Sign up</span>
                 </Link>
               </label>
             </div>

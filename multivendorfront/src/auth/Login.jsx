@@ -99,7 +99,8 @@ const Login = () => {
                   to="/sign-up"
                   className="label-text-alt link link-hover text-bg-black"
                 >
-                  Don't have an account? Sign up
+                  Don't have an account?{" "}
+                  <span className="ml-1 text-bg-btn text-bold">Sign up</span>
                 </Link>
               </label>
             </div>
